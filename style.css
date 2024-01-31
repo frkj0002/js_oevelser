@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 50%;
+}
